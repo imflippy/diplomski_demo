@@ -1,0 +1,12 @@
+User.php 
+
+Fali use za:
+use Tymon\JWTAuth\Contracts\JWTSubject;
+
+AuthController.php
+
+Fali use:
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Validator;
+use Tymon\JWTAuth\Facades\JWTAuth;
+use Tymon\JWTAuth\Facades\JWTFactory;
